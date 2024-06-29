@@ -1,0 +1,65 @@
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git clone https://github.com/rajesh93986/RVRJC-CSDS-FOURTH-YEAR.git
+fatal: destination path 'RVRJC-CSDS-FOURTH-YEAR' already exists and is not an empty directory.
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git checkout/feature young-tigers
+git: 'checkout/feature' is not a git command. See 'git --help'.
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git checkout feature/young-tigers
+Already on 'feature/young-tigers'
+Your branch is up to date with 'origin/feature/young-tigers'.
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>echo this is pavan >pavan.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git add pavan.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git commit -m "pavan repo"
+[feature/young-tigers e80cdb3] pavan repo
+ 1 file changed, 1 insertion(+)
+ create mode 100644 pavan.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git status
+On branch feature/young-tigers
+Your branch is ahead of 'origin/feature/young-tigers' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        RVRJC-CSDS-FOURTH-YEAR/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git pull
+remote: Enumerating objects: 88, done.
+remote: Counting objects: 100% (88/88), done.
+remote: Compressing objects: 100% (49/49), done.
+remote: Total 81 (delta 26), reused 73 (delta 18), pack-reused 0
+Unpacking objects: 100% (81/81), 9.11 KiB | 66.00 KiB/s, done.
+From https://github.com/rajesh93986/RVRJC-CSDS-FOURTH-YEAR
+   fbb07a6..00cddef  feature/young-tigers -> origin/feature/young-tigers
+   73c9a6d..2df840b  feature/devil-squad  -> origin/feature/devil-squad
+   9e3535e..675e9f5  feature/fast-pirates -> origin/feature/fast-pirates
+   2b4ba3c..1652878  feature/push         -> origin/feature/push
+   ca1ccbe..9b2654f  main                 -> origin/main
+Merge made by the 'ort' strategy.
+ Devender.txt  | 1 +
+ Kousik.txt    | 1 +
+ Manikanta.txt | 1 +
+ Rahul.txt     | 1 +
+ 4 files changed, 4 insertions(+)
+ create mode 100644 Devender.txt
+ create mode 100644 Kousik.txt
+ create mode 100644 Manikanta.txt
+ create mode 100644 Rahul.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 559 bytes | 559.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/rajesh93986/RVRJC-CSDS-FOURTH-YEAR.git
+   00cddef..546798c  feature/young-tigers -> feature/young-tigers
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>
