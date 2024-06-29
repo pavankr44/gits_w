@@ -4,7 +4,7 @@ Basic Git Commands :
 2) git clone [url] : Creates a local copy of a remote repository specified by the URL.
 3) git add [file] : Adds a file to the staging area , preparing it for the next commit. ----------git add . -> for all files .
 4) git commit -m  "message"
-5) git status				
+5) git status	:			
 6) git diff : Shows the differences between the working directory and the staging area.
 7) git log : Displays a history of commits ,including commit hashes  ,authors , timestamps , and commit messages .
 8) git branch [branch name] : Lists all branches in the repository ,highlighting the current branch
