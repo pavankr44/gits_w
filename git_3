@@ -1,0 +1,680 @@
+Microsoft Windows [Version 10.0.22631.3737]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\HP>cd ..
+
+C:\Users>cd Desktop
+The system cannot find the path specified.
+
+C:\Users>cd Desktop
+The system cannot find the path specified.
+
+C:\Users>cd HP
+
+C:\Users\HP>cd Deskop
+The system cannot find the path specified.
+
+C:\Users\HP>cd Desktop
+
+C:\Users\HP\Desktop>mkdir git_y21cd44
+
+C:\Users\HP\Desktop>cd git_y21cd44
+
+C:\Users\HP\Desktop\git_y21cd44>mv git_y21cd44 git_y21cd044
+'mv' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP\Desktop\git_y21cd44>cd ..
+
+C:\Users\HP\Desktop>mv git_y21cd44 git_y21cd044
+'mv' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP\Desktop>ren git_y21cd044 git_y21cd44
+
+C:\Users\HP\Desktop>cd git_y21cd44
+
+C:\Users\HP\Desktop\git_y21cd44>cd ..
+
+C:\Users\HP\Desktop>cd git_y21cd44
+
+C:\Users\HP\Desktop\git_y21cd44>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 9CE1-4C19
+
+ Directory of C:\Users\HP\Desktop\git_y21cd44
+
+29-06-2024  08:51    <DIR>          .
+29-06-2024  08:45    <DIR>          ..
+29-06-2024  08:51             1,245 git_note.txt
+               1 File(s)          1,245 bytes
+               2 Dir(s)  135,017,078,784 bytes free
+
+C:\Users\HP\Desktop\git_y21cd44>echo this is pavan kumar cse data science >first.txt
+
+C:\Users\HP\Desktop\git_y21cd44>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 9CE1-4C19
+
+ Directory of C:\Users\HP\Desktop\git_y21cd44
+
+29-06-2024  08:55    <DIR>          .
+29-06-2024  08:45    <DIR>          ..
+29-06-2024  08:55                39 first.txt
+29-06-2024  08:51             1,245 git_note.txt
+               2 File(s)          1,284 bytes
+               2 Dir(s)  135,016,251,392 bytes free
+
+C:\Users\HP\Desktop\git_y21cd44>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP\Desktop\git_y21cd44>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 9CE1-4C19
+
+ Directory of C:\Users\HP\Desktop\git_y21cd44
+
+29-06-2024  08:55    <DIR>          .
+29-06-2024  08:45    <DIR>          ..
+29-06-2024  08:55                39 first.txt
+29-06-2024  08:51             1,245 git_note.txt
+               2 File(s)          1,284 bytes
+               2 Dir(s)  135,016,964,096 bytes free
+
+C:\Users\HP\Desktop\git_y21cd44>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+C:\Users\HP\Desktop\git_y21cd44>git add first.txt
+
+C:\Users\HP\Desktop\git_y21cd44>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   first.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git_note.txt
+
+
+C:\Users\HP\Desktop\git_y21cd44>git commit -m "my new commit"
+[master (root-commit) dd19cab] my new commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 first.txt
+
+C:\Users\HP\Desktop\git_y21cd44>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git_note.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HP\Desktop\git_y21cd44>git log
+commit dd19cab1246dc2c609f375c54531da05c3fa09e5 (HEAD -> master)
+Author: unknown <harika.chowdary1305@gmail.com>
+Date:   Sat Jun 29 09:08:15 2024 +0530
+
+    my new commit
+
+C:\Users\HP\Desktop\git_y21cd44>git config --global user.email "pavanrouthu44@gmail.com"
+
+C:\Users\HP\Desktop\git_y21cd44>git config --global user.name "pavankr44"
+
+C:\Users\HP\Desktop\git_y21cd44>git log
+commit dd19cab1246dc2c609f375c54531da05c3fa09e5 (HEAD -> master)
+Author: unknown <harika.chowdary1305@gmail.com>
+Date:   Sat Jun 29 09:08:15 2024 +0530
+
+    my new commit
+
+C:\Users\HP\Desktop\git_y21cd44>git config --global user.email "pavanrouthu44@gmail.com"
+
+C:\Users\HP\Desktop\git_y21cd44>git config --global user.name "pavankr44"
+
+C:\Users\HP\Desktop\git_y21cd44>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.email=pavanrouthu44@gmail.com
+user.name=pavankr44
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+C:\Users\HP\Desktop\git_y21cd44>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git_note.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HP\Desktop\git_y21cd44>git add git_note.txt
+
+C:\Users\HP\Desktop\git_y21cd44>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   git_note.txt
+
+
+C:\Users\HP\Desktop\git_y21cd44>git log
+commit dd19cab1246dc2c609f375c54531da05c3fa09e5 (HEAD -> master)
+Author: unknown <harika.chowdary1305@gmail.com>
+Date:   Sat Jun 29 09:08:15 2024 +0530
+
+    my new commit
+
+C:\Users\HP\Desktop\git_y21cd44>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.email=pavanrouthu44@gmail.com
+user.name=pavankr44
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+C:\Users\HP\Desktop\git_y21cd44>git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+C:\Users\HP\Desktop\git_y21cd44>git clone https://github.com/pavankr44/gits_w.git
+Cloning into 'gits_w'...
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (16/16), done.
+Receiving objects: 100% (18/18), 6.02 KiB | 3.01 MiB/s, done.
+remote: Total 18 (delta 3), reused 0 (delta 0), pack-reused 0
+Resolving deltas: 100% (3/3), done.
+
+C:\Users\HP\Desktop\git_y21cd44>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 9CE1-4C19
+
+ Directory of C:\Users\HP\Desktop\git_y21cd44
+
+29-06-2024  09:25    <DIR>          .
+29-06-2024  08:45    <DIR>          ..
+29-06-2024  08:55                39 first.txt
+29-06-2024  09:25    <DIR>          gits_w
+29-06-2024  08:51             1,245 git_note.txt
+               2 File(s)          1,284 bytes
+               3 Dir(s)  135,023,902,720 bytes free
+
+C:\Users\HP\Desktop\git_y21cd44>cd gits_w
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>echo this is my first clone >clone.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        clone.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git add clone.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   clone.txt
+
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git commit -m "clone file"
+[main 101a4d7] clone file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 clone.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git push
+info: please complete authentication in your browser...
+remote: Permission to pavankr44/gits_w.git denied to Harika-Tella.
+fatal: unable to access 'https://github.com/pavankr44/gits_w.git/': The requested URL returned error: 403
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git push
+info: please complete authentication in your browser...
+remote: Permission to pavankr44/gits_w.git denied to Harika-Tella.
+fatal: unable to access 'https://github.com/pavankr44/gits_w.git/': The requested URL returned error: 403
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git push
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 299 bytes | 299.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/pavankr44/gits_w.git
+   ee6f9fc..101a4d7  main -> main
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git push
+Everything up-to-date
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git push branch1
+fatal: 'branch1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git push
+Everything up-to-date
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git checkout -b "CSDS"
+Switched to a new branch 'CSDS'
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git branch -a
+* CSDS
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/git_1
+  remotes/origin/main
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>echo the new data in the git >new_git.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 9CE1-4C19
+
+ Directory of C:\Users\HP\Desktop\git_y21cd44\gits_w
+
+29-06-2024  09:47    <DIR>          .
+29-06-2024  09:25    <DIR>          ..
+29-06-2024  09:29                25 clone.txt
+29-06-2024  09:47                26 new_git.txt
+29-06-2024  09:25                37 README.md
+               3 File(s)             88 bytes
+               2 Dir(s)  135,024,930,816 bytes free
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git status
+On branch CSDS
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        new_git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git add CSDS new_git.txt
+fatal: pathspec 'CSDS' did not match any files
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git add new_git.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git commit -m "new clone in git"
+[CSDS cc33c6f] new clone in git
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new_git.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git log
+commit cc33c6fbfd4c24eeac5f0fee57a9addc1dfdfb8b (HEAD -> CSDS)
+Author: pavankr44 <pavanrouthu44@gmail.com>
+Date:   Sat Jun 29 09:49:11 2024 +0530
+
+    new clone in git
+
+commit 101a4d719574e3b96df54d408f4fda675e35b925 (origin/main, origin/HEAD, main)
+Author: pavankr44 <pavanrouthu44@gmail.com>
+Date:   Sat Jun 29 09:30:57 2024 +0530
+
+    clone file
+
+commit ee6f9fcd633c45e246b09be9f46118d1fa5aef31
+Author: pavankr44 <pavanrouthu44@gmail.com>
+Date:   Fri Jun 28 16:21:42 2024 +0530
+
+    Initial commit
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git push
+fatal: The current branch CSDS has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin CSDS
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git help config
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git push CSDS
+fatal: 'CSDS' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> CSDS
+
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git branch CSDS
+fatal: a branch named 'CSDS' already exists
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git pull CSDS new_git.txt
+fatal: 'CSDS' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git pull CSDS
+fatal: 'CSDS' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git push orign CSDS
+fatal: 'orign' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git branch
+* CSDS
+  main
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>git clone https://github.com/rajesh93986/RVRJC-CSDS-FOURTH-YEAR.git
+Cloning into 'RVRJC-CSDS-FOURTH-YEAR'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>echo the workshop is all about git_workshop >work.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 9CE1-4C19
+
+ Directory of C:\Users\HP\Desktop\git_y21cd44\gits_w
+
+29-06-2024  10:41    <DIR>          .
+29-06-2024  09:25    <DIR>          ..
+29-06-2024  09:29                25 clone.txt
+29-06-2024  09:47                26 new_git.txt
+29-06-2024  09:25                37 README.md
+29-06-2024  10:38    <DIR>          RVRJC-CSDS-FOURTH-YEAR
+29-06-2024  10:41                41 work.txt
+               4 File(s)            129 bytes
+               3 Dir(s)  135,039,430,656 bytes free
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w>cd RVRJC-CSDS-FOURTH-YEAR
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>echo new sat and sun is all about the git >newwrk.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 9CE1-4C19
+
+ Directory of C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR
+
+29-06-2024  10:43    <DIR>          .
+29-06-2024  10:41    <DIR>          ..
+29-06-2024  10:43                39 newwrk.txt
+29-06-2024  10:38                41 README.md
+               2 File(s)             80 bytes
+               2 Dir(s)  135,038,676,992 bytes free
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        newwrk.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git add newwrk.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   newwrk.txt
+
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git push
+To https://github.com/rajesh93986/RVRJC-CSDS-FOURTH-YEAR.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/rajesh93986/RVRJC-CSDS-FOURTH-YEAR.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git pull
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (30/30), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 29 (delta 7), reused 27 (delta 5), pack-reused 0
+Unpacking objects: 100% (29/29), 2.93 KiB | 61.00 KiB/s, done.
+From https://github.com/rajesh93986/RVRJC-CSDS-FOURTH-YEAR
+   f4c202f..ca1ccbe  main                 -> origin/main
+   f4c202f..fcc4717  feature/devil-squad  -> origin/feature/devil-squad
+   f4c202f..9e3535e  feature/fast-pirates -> origin/feature/fast-pirates
+   f4c202f..476e787  feature/young-tigers -> origin/feature/young-tigers
+Updating f4c202f..ca1ccbe
+Fast-forward
+ blessy.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 blessy.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git clone https://github.com/rajesh93986/RVRJC-CSDS-FOURTH-YEAR.git
+Cloning into 'RVRJC-CSDS-FOURTH-YEAR'...
+remote: Enumerating objects: 32, done.
+remote: Counting objects: 100% (32/32), done.
+remote: Compressing objects: 100% (18/18), done.
+remote: Total 32 (delta 7), reused 27 (delta 5), pack-reused 0
+Receiving objects: 100% (32/32), done.
+Resolving deltas: 100% (7/7), done.
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>echo this is new class >class.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 9CE1-4C19
+
+ Directory of C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR
+
+29-06-2024  10:49    <DIR>          .
+29-06-2024  10:41    <DIR>          ..
+29-06-2024  10:47                45 blessy.txt
+29-06-2024  10:49                20 class.txt
+29-06-2024  10:43                39 newwrk.txt
+29-06-2024  10:38                41 README.md
+29-06-2024  10:48    <DIR>          RVRJC-CSDS-FOURTH-YEAR
+               4 File(s)            145 bytes
+               3 Dir(s)  135,034,236,928 bytes free
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   newwrk.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        RVRJC-CSDS-FOURTH-YEAR/
+        class.txt
+
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git add class.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   class.txt
+        new file:   newwrk.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        RVRJC-CSDS-FOURTH-YEAR/
+
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git push
+Everything up-to-date
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 9CE1-4C19
+
+ Directory of C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR
+
+29-06-2024  10:49    <DIR>          .
+29-06-2024  10:41    <DIR>          ..
+29-06-2024  10:47                45 blessy.txt
+29-06-2024  10:49                20 class.txt
+29-06-2024  10:43                39 newwrk.txt
+29-06-2024  10:38                41 README.md
+29-06-2024  10:48    <DIR>          RVRJC-CSDS-FOURTH-YEAR
+               4 File(s)            145 bytes
+               3 Dir(s)  135,032,041,472 bytes free
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>]git status
+']git' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   class.txt
+        new file:   newwrk.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        RVRJC-CSDS-FOURTH-YEAR/
+
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git checkout feature/young-tigers
+A       class.txt
+A       newwrk.txt
+branch 'feature/young-tigers' set up to track 'origin/feature/young-tigers'.
+Switched to a new branch 'feature/young-tigers'
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git add class.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git commit -m "gits repo"
+[feature/young-tigers 41a3563] gits repo
+ 2 files changed, 2 insertions(+)
+ create mode 100644 class.txt
+ create mode 100644 newwrk.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git status
+On branch feature/young-tigers
+Your branch is ahead of 'origin/feature/young-tigers' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        RVRJC-CSDS-FOURTH-YEAR/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git pull
+remote: Enumerating objects: 31, done.
+remote: Counting objects: 100% (31/31), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 28 (delta 7), reused 26 (delta 5), pack-reused 0
+Unpacking objects: 100% (28/28), 2.99 KiB | 49.00 KiB/s, done.
+From https://github.com/rajesh93986/RVRJC-CSDS-FOURTH-YEAR
+   476e787..611f683  feature/young-tigers -> origin/feature/young-tigers
+   fcc4717..73c9a6d  feature/devil-squad  -> origin/feature/devil-squad
+   f4c202f..2b4ba3c  feature/push         -> origin/feature/push
+Merge made by the 'ort' strategy.
+ saimohith.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 saimohith.txt
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 643 bytes | 643.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/rajesh93986/RVRJC-CSDS-FOURTH-YEAR.git
+   611f683..fbb07a6  feature/young-tigers -> feature/young-tigers
+
+C:\Users\HP\Desktop\git_y21cd44\gits_w\RVRJC-CSDS-FOURTH-YEAR>
