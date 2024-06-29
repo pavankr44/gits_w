@@ -1,3 +1,8 @@
 #Pavan Kumar Routhu 
 Computer science and Engineering Data Science 
-Guntut
+Guntur 
+
+Command prompt : Changing user name 
+C:\Users\HP\Desktop\git_y21cd44>git config --global user.email "pavanrouthu44@gmail.com"
+
+C:\Users\HP\Desktop\git_y21cd44>git config --global user.name "pavankr44"
